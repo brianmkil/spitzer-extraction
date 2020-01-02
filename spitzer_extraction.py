@@ -21,7 +21,7 @@ def main(plnm, channel, aornum):
 
     if __name__ == '__main__':
         basepath='/home/bkilpatr/mapping_files/'
-        if socket.gethostname()=='Gemini': basepath='/Users/Brian/Desktop/Tucker_Group/Spitzer/mapping_files/'
+        if socket.gethostname()=='Luke': basepath='/Users/Brian/Desktop/Tucker_Group/Spitzer/mapping_files/'
         if socket.gethostname()=='Pollux.local': basepath='/Users/bmkil/Mapping/'
 
         if plnm == 'HD209': plnm2='HD 209458 b'
